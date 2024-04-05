@@ -62,7 +62,7 @@ async function createPdf(formData, riskData, chartImage) {
     pdf.text(`Family History: ${formData.familyHistory}\n\n`);
 
 
-    pdf.image(chartImage, 100, 300, { width: 400 });
+    pdf.image(chartImage, 100, 300, { width: 500 });
 
     pdf.end();
 
